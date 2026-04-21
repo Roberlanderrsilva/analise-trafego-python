@@ -11,7 +11,7 @@ O projeto foi desenvolvido para ser executado via linha de comando, processando 
 
 ### 🎥 Demonstração da Execução
 Você pode conferir o script em funcionamento no vídeo abaixo:
-[Clique para ver o vídeo demonstrativo](./generated_video_0833317a.mp4)
+[Clique para ver o vídeo demonstrativo](./demo_final.mp4)
 
 ## 🛠️ Tecnologias
 * **Python 3**
