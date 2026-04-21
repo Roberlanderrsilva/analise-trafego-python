@@ -1,23 +1,21 @@
 # 📊 Análise de Tráfego de Rede com Python
 
-<div align="center">
-  <img src="meu_dashboard.png" alt="Dashboard de Análise de Tráfego" width="80%">
-</div>
+Este projeto automatiza a análise de logs de tráfego, identificando os principais endereços IP e gerando visualizações automáticas para auditoria.
 
-Este projeto automatiza a leitura de logs de servidores Apache e gera dashboards visuais para identificar os IPs com maior volume de acessos. Ideal para monitoramento de segurança e performance.
+## 🚀 Como funciona
+O projeto foi desenvolvido para ser executado via linha de comando, processando os dados e gerando um dashboard instantâneo.
 
-## 🚀 Funcionalidades
-* **Leitura Automática:** Processa arquivos de log (`access.log`).
-* **Top 10 IPs:** Identifica rapidamente quem está acessando o servidor.
-* **Dashboard Visual:** Gera um gráfico profissional em `.png`.
+### 📈 Dashboard Gerado
+![Dashboard de Tráfego](./dashboard.png)
 
-## 🛠️ Tecnologias Utilizadas
+### 🎥 Demonstração da Execução
+Você pode conferir o script em funcionamento no vídeo abaixo:
+[Clique para ver o vídeo demonstrativo](./generated_video_0833317a.mp4)
+
+## 🛠️ Tecnologias
 * **Python 3**
-* **Pandas:** Para manipulação inteligente de dados.
-* **Matplotlib:** Para criação de gráficos profissionais.
-
-## 📈 Exemplo de Resultado
-O script processa os dados e salva um gráfico chamado `meu_dashboard.png` com cores variadas para facilitar a leitura.
+* **Pandas**: Para manipulação de dados.
+* **Matplotlib/Seaborn**: Para geração de gráficos.
 
 ---
 ⭐ *Projeto desenvolvido por [Roberlande Silva](https://github.com/Roberlanderrsilva)*
