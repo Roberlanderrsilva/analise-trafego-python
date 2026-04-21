@@ -1,30 +1,19 @@
+# 📊 Análise de Tráfego de Rede com Python
 
-import pandas as pd
-import matplotlib.pyplot as plt
+Este projeto automatiza a leitura de logs de servidores Apache e gera dashboards visuais para identificar os IPs com maior volume de acessos. Ideal para monitoramento de segurança e performance.
 
-# 1. Carregar os dados
-caminho_log = '/var/log/apache2/access.log'
-df = pd.read_csv(caminho_log, sep=' ', header=None, usecols=[0], names=['IP'])
+## 🚀 Funcionalidades
+* **Leitura Automática:** Processa arquivos de log (`access.log`).
+* **Top 10 IPs:** Identifica rapidamente quem está acessando o servidor.
+* **Dashboard Visual:** Gera um gráfico profissional em `.png`.
 
-# 2. Pegar os top 10 IPs (agora teremos vários!)
-top_ips = df['IP'].value_counts().head(10)
+## 🛠️ Tecnologias Utilizadas
+* **Python 3**
+* **Pandas:** Para manipulação inteligente de dados.
+* **Matplotlib:** Para criação de gráficos profissionais.
 
-# 3. Criar o Visual Profissional
-plt.figure(figsize=(10, 6))
-# Usando cores variadas para ficar bonitão
-cores = ['#2ecc71', '#3498db', '#9b59b6', '#f1c40f', '#e67e22', '#e74c3c', '#1abc9c', '#34495e', '#d35400', '#c0392b']
-top_ips.plot(kind='bar', color=cores)
+## 📈 Exemplo de Resultado
+O script processa os dados e salva um gráfico chamado `meu_dashboard.png` com cores variadas para facilitar a leitura.
 
-# Customização de Elite
-plt.title('DASHBOARD DE TRÁFEGO - SERVIDOR LUBUNTU (ROBERLANDE)', fontsize=14, fontweight='bold')
-plt.xlabel('Endereço IP do Visitante', fontsize=12)
-plt.ylabel('Total de Requisições', fontsize=12)
-plt.xticks(rotation=45)
-plt.grid(axis='y', linestyle='--', alpha=0.7)
-
-plt.tight_layout()
-
-# Salvar e mostrar
-plt.savefig('dashboard_final.png')
-print("\n🔥 SUCESSO! O Dashboard 'dashboard_final.png' foi gerado com volume de dados!")
-plt.show()
+---
+⭐ *Projeto desenvolvido por [Roberlande Silva](https://github.com/Roberlanderrsilva)*
