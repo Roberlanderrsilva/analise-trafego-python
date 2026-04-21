@@ -1,5 +1,9 @@
 # 📊 Análise de Tráfego de Rede com Python
 
+<div align="center">
+  <img src="meu_dashboard.png" alt="Dashboard de Análise de Tráfego" width="80%">
+</div>
+
 Este projeto automatiza a leitura de logs de servidores Apache e gera dashboards visuais para identificar os IPs com maior volume de acessos. Ideal para monitoramento de segurança e performance.
 
 ## 🚀 Funcionalidades
