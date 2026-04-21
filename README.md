@@ -6,7 +6,7 @@ Este projeto automatiza a análise de logs de tráfego, identificando os princip
 O projeto foi desenvolvido para ser executado via linha de comando, processando os dados e gerando um dashboard instantâneo.
 
 ### 📈 Dashboard Gerado
-![Dashboard de Tráfego](./dashboard.png)
+![Dashboard de Tráfego](./meu_dashboard.png)
 
 ### 🎥 Demonstração da Execução
 Você pode conferir o script em funcionamento no vídeo abaixo:
