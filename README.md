@@ -18,5 +18,13 @@ Você pode conferir o script em funcionamento no vídeo abaixo:
 * **Pandas**: Para manipulação de dados.
 * **Matplotlib/Seaborn**: Para geração de gráficos.
 
+
+## 🎥 Demonstração da Execução
+
+![Fluxo do Script](demo_execucao.gif)
+
+---
+
+
 ---
 ⭐ *Projeto desenvolvido por [Roberlande Silva](https://github.com/Roberlanderrsilva)*
