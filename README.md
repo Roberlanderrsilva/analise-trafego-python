@@ -1,5 +1,7 @@
 # 📊 Análise de Tráfego de Rede com Python
-### 👉 [CLIQUE AQUI PARA VER O VÍDEO DEMONSTRATIVO](https://github.com/Roberlanderrsilva/analise-trafego-python/raw/main/demo_final.mp4)
+## 🎥 Demonstração da Execução
+
+![Fluxo do Script](demo_execucao.gif)
 
 Este projeto automatiza a análise de logs de tráfego, identificando os principais endereços IP e gerando visualizações automáticas para auditoria.
 
@@ -9,9 +11,7 @@ O projeto foi desenvolvido para ser executado via linha de comando, processando 
 ### 📈 Dashboard Gerado
 ![Dashboard de Tráfego](./meu_dashboard.png)
 
-### 🎥 Demonstração da Execução
-Você pode conferir o script em funcionamento no vídeo abaixo:
-### 👉 [CLIQUE AQUI PARA VER O VÍDEO DEMONSTRATIVO](https://github.com/Roberlanderrsilva/analise-trafego-python/raw/main/demo_final.mp4)
+
 
 ## 🛠️ Tecnologias
 * **Python 3**
@@ -19,12 +19,13 @@ Você pode conferir o script em funcionamento no vídeo abaixo:
 * **Matplotlib/Seaborn**: Para geração de gráficos.
 
 
-## 🎥 Demonstração da Execução
 
-![Fluxo do Script](demo_execucao.gif)
+### 👉 [CLIQUE AQUI PARA BAIXAR O VÍDEO DEMONSTRATIVO](https://github.com/Roberlanderrsilva/analise-trafego-python/raw/main/demo_final.mp4)
 
 ---
-
+📂 **analise-trafego-python**
+└── 📂 `scripts/`
+    └── 🐍 `analisa_dados.py`
 
 ---
 ⭐ *Projeto desenvolvido por [Roberlande Silva](https://github.com/Roberlanderrsilva)*
