@@ -1,4 +1,5 @@
 # 📊 Análise de Tráfego de Rede com Python
+![Demonstração do Projeto](demo_final.mp4)
 
 Este projeto automatiza a análise de logs de tráfego, identificando os principais endereços IP e gerando visualizações automáticas para auditoria.
 
