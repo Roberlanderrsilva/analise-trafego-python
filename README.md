@@ -21,7 +21,9 @@ O coração da análise está organizado da seguinte forma:
 analise-trafego-python 📂 scripts/ 📂 analisa_dados.py 🐍
 
 🎬 Demonstração
-### 👉   https://github.com/user-attachments/assets/6cc010f2-7733-4002-ba8b-297d5026ba2d
+### 👉 ASSISTA AO VÍDEO: 
+
+https://github.com/user-attachments/assets/6cc010f2-7733-4002-ba8b-297d5026ba2d
 
 🤝 Convite à Comunidade
 Este projeto é um ponto de partida para quem deseja unir Cibersegurança com Ciência de Dados.
