@@ -33,7 +33,7 @@ Otimizando o script analisa_dados.py para processar arquivos ainda maiores.
 Integrando com ferramentas de captura em tempo real.
 Se você tem interesse em melhorar essa ferramenta, sinta-se à vontade para fazer um Fork ou abrir uma Issue! Vamos evoluir este analisador juntos.
 
-⭐ Projeto desenvolvido por Roberlande Silva (https://www.linkedin.com/in/roberlande-silva/)
+⭐ Projeto desenvolvido por: Roberlanderrsilva (https://www.linkedin.com/in/roberlande-silva/)
 
 
 
